@@ -1,0 +1,40 @@
+# Source control
+.git
+.gitignore
+
+# Development
+examples/
+test/
+coverage/
+.nyc_output/
+jest.config.js
+tsconfig.json
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Assets
+assets/
+logo.png
