@@ -34,7 +34,7 @@ expressAccess(app);
 app.access.config({
   authMiddleware: (req, res, next) => {
     // Your authentication logic
-    req.user = { id: 1, roles: ['user:list', 'user:create'] };
+    req.user = { id: 1, permissions: ['user:list', 'user:create'] };
     next();
   },
   checkPermission: async (user, permission) => {
@@ -93,7 +93,7 @@ interface User {
 
 app.access.config<User>({
   authMiddleware: (req, res, next) => {
-    req.user = { id: 1, roles: ['user:list', 'user:create'] };
+    req.user = { id: 1, permissions: ['user:list', 'user:create'] };
     next();
   },
   checkPermission: async (user, permission) => {
