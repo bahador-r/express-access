@@ -1,0 +1,35 @@
+{
+  "name": "express-access",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "description": "A lightweight access control middleware for Express.js",
+  "keywords": [
+    "express",
+    "access",
+    "permissions",
+    "middleware",
+    "auth",
+    "acl"
+  ],
+  "author": "Bahador Raghibizadeh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahador-r/express-access.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bahador-r/express-access/issues"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
