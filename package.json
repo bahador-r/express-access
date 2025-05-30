@@ -10,7 +10,8 @@
     "permissions",
     "middleware",
     "auth",
-    "acl"
+    "acl",
+    "rbac"
   ],
   "author": "Bahador Raghibizadeh",
   "license": "MIT",
