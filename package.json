@@ -1,6 +1,6 @@
 {
   "name": "express-access",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "index.js",
   "types": "index.d.ts",
   "description": "A lightweight access control middleware for Express.js",
